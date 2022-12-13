@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #212529;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.links a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.london-blogs {
+  text-align: center;
+  font-size: 78px;
+  margin-bottom: 21px;
+  letter-spacing: 6px;
+  text-shadow: 2px 6px 6px #212529;
+  color: #212529;
+}
+
+.footer {
+  height: 80px;
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.blog-card button {
+  width: 100%;
+  background-color: #343a40;
+  border: none;
+}
+
+.blog-card button:hover,
+.blog-card button:active,
+.blog-card button:visited {
+  background-color: #212529;
+}
+
+/* FORM */
+.form-container {
+  margin-bottom: 200px;
+  margin-top: 32px;
+}
+
+.form-container h3 {
+  max-width: 559px;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  max-width: 559px;
+  margin: 0 auto;
+  border: 1px solid #868e96;
+  border-radius: 5px;
+}
+
+.form input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border: 1px solid #adb5bd;
+  height: 34px;
+  padding: 4px 5px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #343a40;
+}
+
+.form button {
+  border: none;
+  margin-top: 24px;
+  width: 100%;
+  padding: 4px;
+  background-color: #212529;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* BLOG IMG */
+.blog-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.writeImg {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 28px 0;
+  padding: 0 200px;
+}
+
+.writeIcon {
+  cursor: pointer;
+}
+
+.writeText {
+  font-size: 20px;
+  height: 200px;
+  width: 100%;
+  border: none;
+  border: 1px solid #adb5bd;
+  padding: 3px 4px;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+.writeText:focus {
+  outline: none;
+}
+
+/* SINGLE BLOG */
+.single-blog h1,
+img {
+  margin-bottom: 20px;
+}
+
+.single-blog p {
+  line-height: 2.4;
+  padding: 0 100px;
+}
+
+.imageBlog {
+  width: 100%;
+  height: auto;
+}
+
+.london-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
